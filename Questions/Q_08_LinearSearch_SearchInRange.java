@@ -16,7 +16,7 @@ public class Q_08_LinearSearch_SearchInRange {
             return -1;                         // statement if array is empty
         }
 
-        for(int index = start; index <= end; index++){
+        for(int index = start; index <= end; index++){ // including end
             int element = arr[index];          // checking element for every index in array
             if (element == target){
                 return index;                   // if found returning its index

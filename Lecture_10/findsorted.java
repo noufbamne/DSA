@@ -2,6 +2,7 @@ package DSA.Lecture_10;
 
 public class findsorted {
     public static void main(String[] args) {
+
         // int [] arr = {2, 3, 4, 5, 7, 9, 22};
         int [] arr = {22, 3, 2, 1};
         int target = 22;
